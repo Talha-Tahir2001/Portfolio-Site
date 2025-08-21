@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Talha's Portfolio - Showcasing my work as a Web Developer and UI Designer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talha's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fas fa-code"></i>
+          <h1>Talha</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button type="button" title="Toggle Theme" class="theme-toggle" id="theme-toggle">
+          <span>
+            <i class="fas fa-sun"></i>
+          </span>
+        </button>
+        <button type="button" title="Toggle Mobile Menu" class="mobile-menu-btn" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Web Developer & UI Designer</h2>
+          <p>I create beautiful, functional websites and applications with a focus on user experience and clean code.</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Get to know more about my background and passion for web development</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Creating digital experiences that matter</h3>
+            <p>Welcome to my portfolio! I am a passionate web developer with a love for creating dynamic and responsive websites. With expertise in both front-end and back-end technologies, I bring ideas to life with clean, efficient code.</p>
+            <p>My journey in web development started 5 years ago, and since then I've worked on various projects ranging from small business websites to complex web applications.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing my knowledge through technical blogs.</p>
+          </div>
+          <div class="about-image">
+            <div >
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Skills</h2>
+          <p>Technologies and tools I use to bring ideas to life</p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, accessibility, modern APIs</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, animations, responsive design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, async programming</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Components, hooks, state management</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node"></i>
+            </div>
+            <h3>Node.js</h3>
+            <p>REST APIs, authentication, database integration</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Databases</h3>
+            <p>MongoDB, SQL, data modeling</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+          <p>Here are some of the projects I've worked on recently</p>
+        </div>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/sentinel.png" alt="Sentinel" width="180" height="180">
+            </div>
+            <div class="project-content">
+              <h3>Sentinel</h3>
+              <p>An AI Powered Tool for Sentiment Analysis using Google's Gemini AI</p>
+              <div class="project-links">
+                <a href="https://sentinel-xi.vercel.app/"><i class="fas fa-globe"></i> Live Demo</a>
+                <a href="https://github.com/Talha-Tahir2001/Sentinel"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/weather.png" alt="Weather" width="180" height="180">
+            </div>
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>A weather application with 5-day forecast, location search, and interactive maps.</p>
+              <div class="project-links">
+                <a href="https://weather-whiz-woad.vercel.app/"><i class="fas fa-globe"></i> Live Demo</a>
+                <a href="https://github.com/Talha-Tahir2001/WeatherWhiz"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/textractor.png" alt="Textractor" width="180" height="180">
+            </div>
+            <div class="project-content">
+              <h3>Textractor</h3>
+              <p>An AI-Powered tool for accurate and efficient text extraction.</p>
+              <div class="project-links">
+                <a href="https://textractor-blond.vercel.app/"><i class="fas fa-globe"></i> Live Demo</a>
+                <a href="https://github.com/Talha-Tahir2001/Textractor"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" >
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+          <p>Get in touch with me for collaborations or just a friendly hello</p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>contact@talha.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+1 (123) 456-7890</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>New York, NY</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a title="GitHub" href="#"><i class="fab fa-github"></i></a>
+        <a title="LinkedIn" href="#"><i class="fab fa-linkedin"></i></a>
+        <a title="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+        <a title="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="copyright">© 2023 Talha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="Main.js"></script>
+</body>
+</html>
