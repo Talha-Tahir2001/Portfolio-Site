@@ -4,7 +4,7 @@ const body = document.body;
 
 // Check for saved theme preference or respect OS preference
 const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-
+ 
 if (savedTheme === 'dark') {
     body.setAttribute('data-theme', 'dark');
     themeToggle.querySelector('span i').className = 'fas fa-moon';
