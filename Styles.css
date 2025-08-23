@@ -434,7 +434,7 @@ section {
 
 /* Footer */
 footer {
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
   padding: 40px 0;
   text-align: center;
 }
